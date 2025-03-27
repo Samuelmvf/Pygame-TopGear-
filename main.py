@@ -47,7 +47,7 @@ clock = pygame.time.Clock()
 BASE_SPEED = 100
 NEXT_LEVEL_INCREMENT = 20
 #Music
-pygame.mixer.music.load('assets/top-Gear-Soundtrack.mp3')
+pygame.mixer.music.load('assets/songs/top-Gear-Soundtrack.mp3')
 pygame.mixer.music.play(-1)
 pygame.mixer.music.set_volume(0.1)
 

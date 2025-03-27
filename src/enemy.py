@@ -4,7 +4,7 @@ class Enemy(pygame.sprite.Sprite):
     def __init__(self, group, id):
         super().__init__(group)
         self.id = id
-        self.image = (pygame.image.load('assets/blue_car.png') if id == 0 else pygame.image.load('assets/red_car.png'))
+        self.image = (pygame.image.load('assets/cars/blue_car.png') if id == 0 else pygame.image.load('assets/cars/red_car.png'))
         self.rect = self.image.get_rect()
         self.rect.center = (250, -20)
         self.all_positions = [40,193,295] if id == 0 else [91,244,142]

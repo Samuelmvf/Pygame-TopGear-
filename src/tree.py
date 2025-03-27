@@ -32,7 +32,7 @@ class Tree(pygame.sprite.Sprite):
         return random.randint(0,4)
 
     def get_tree_images(self):
-        tree_images = ["assets/tree_1.png", "assets/tree_2.png", "assets/tree_3.png", "assets/tree_4.png", "assets/tree_5.png"]
+        tree_images = ["assets/trees/tree_1.png", "assets/trees/tree_2.png", "assets/trees/tree_3.png", "assets/trees/tree_4.png", "assets/trees/tree_5.png"]
         return tree_images[self.get_random_int()]
     
     def set_tree(self):

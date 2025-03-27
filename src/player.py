@@ -4,12 +4,12 @@ class Player(pygame.sprite.Sprite):
     def __init__(self, *groups):
         super().__init__(*groups)
 
-        self.image = pygame.image.load('assets/white_car.png')
+        self.image = pygame.image.load('assets/cars/white_car.png')
         self.rect = self.image.get_rect()
         self.rect.center = (250, 499)
     
     def car_after_accident(self):
-        self.image = pygame.image.load('assets/white_car_2.png')
+        self.image = pygame.image.load('assets/cars/white_car_2.png')
 
     def move_up(self):
         if(self.rect.y >= 1):
