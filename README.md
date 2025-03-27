@@ -42,4 +42,4 @@ This game was created during my college years as a **tribute to the legendary To
 
 This project was created for educational and nostalgic purposes. Feel free to contribute or improve it! 🚗💨  
 
-## 📌 Pinned Fun Memory from College
+📌 Pinned Fun Memory from College
