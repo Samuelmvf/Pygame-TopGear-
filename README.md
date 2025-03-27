@@ -1,6 +1,6 @@
-# 🏎️ Top Gear Clone
+# 🏎️ Car Racing
 
-🚗 **A remake of the classic Top Gear, developed in Python using Pygame!**
+🚗 **A car racing game inspired by the classic Top Gear, developed in Python using Pygame!**
 
 ## 📌 About the Project
 
@@ -22,8 +22,8 @@ This game was created during my college years as a **tribute to the legendary To
 
 1. **Clone the repository:**  
    ```bash
-   git clone https://github.com/Samuelmvf/Pygame-TopGear-.git
-   cd Pygame-TopGear-
+   git clone https://github.com/Samuelmvf/car-racing-game.git
+   cd car-racing-game
    ```  
 2. **Install Pygame:**  
    ```bash
@@ -31,7 +31,7 @@ This game was created during my college years as a **tribute to the legendary To
    ```  
 3. **Run the game:**  
    ```bash
-   python topgear.py
+   python main.py
    ```  
 
 ## 📷 Screenshots
@@ -42,4 +42,4 @@ This game was created during my college years as a **tribute to the legendary To
 
 This project was created for educational and nostalgic purposes. Feel free to contribute or improve it! 🚗💨  
 
-## 📌 Pinned Fun Memory from College
+📌 Pinned Fun Memory from College
