@@ -1,28 +1,28 @@
 import pygame
 
-class Jogador(pygame.sprite.Sprite):
+class Player(pygame.sprite.Sprite):
     def __init__(self, *groups):
         super().__init__(*groups)
 
-        self.image = pygame.image.load('white_car.png')
+        self.image = pygame.image.load('assets/white_car.png')
         self.rect = self.image.get_rect()
         self.rect.center = (250, 499)
     
-    def carroPosAcidente(self):
-        self.image = pygame.image.load('white_car_2.png')
+    def car_after_accident(self):
+        self.image = pygame.image.load('assets/white_car_2.png')
 
-    def moverParaCima(self):
+    def move_up(self):
         if(self.rect.y >= 1):
             self.rect.y -= 1
 
-    def moverParaBaixo(self):
+    def move_down(self):
         if(self.rect.y <= 499):
             self.rect.y += 1
 
-    def moverParaDireita(self):
+    def move_right(self):
         if(self.rect.x < 298):
             self.rect.x += 1
             
-    def moverParaEsquerda(self):
+    def move_left(self):
         if(self.rect.x > 40):
             self.rect.x -= 1
