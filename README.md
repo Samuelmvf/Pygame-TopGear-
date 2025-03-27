@@ -32,7 +32,8 @@ This game was created during my college years as a **tribute to the legendary To
 3. **Run the game:**  
    ```bash
    python main.py
-   ```  
+   ```
+4. **Use the arrows (← ↑ ↓ →) to control your car**   
 
 ## 📷 Screenshots
 <img src="assets/readme-example.png" alt="Game image" width="520">
