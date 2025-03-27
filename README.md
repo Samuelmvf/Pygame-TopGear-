@@ -1,6 +1,6 @@
-# 🏎️ Top Gear Clone
+# 🏎️ Car Racing
 
-🚗 **A remake of the classic Top Gear, developed in Python using Pygame!**
+🚗 **A car racing game inspired by the classic Top Gear, developed in Python using Pygame!**
 
 ## 📌 About the Project
 
